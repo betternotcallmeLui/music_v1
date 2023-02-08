@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Principal colors */
+:root {
+    --mty-yellow-cosmic: #FFFAE5;
+    --mty-yellow-lemon: #FFF6CC;
+    --mty-yellow-champagne: #FFF2B2;
+    --mty-yellow-crayola-light: #FFEE99;
+    --mty-yellow-crayola: #FFE97F;
+    --mty-yellow-minion-light: #FFE566;
+    --mty-yellow-minion: #FFE14C;
+    --mty-yellow-sunrise: #FFDD32;
+    --mty-yellow-bus: #FFD819;
+    --mty-yellow-general: #FFD400;
+    --mty-yellow-general-dark: #FCD100;
+    --mty-yellow-jonquil: #F8CE00;
+    --mty-yellow-jonquil-dark: #F0C700;
+    --mty-yellow-jonquil-darker: #E0BA00;
+    --mty-yellow-metallic: #D0AD00;
+    --mty-yellow-curry: #C09F00;
+    --mty-yellow-gold: #A08500;
+    --mty-yellow-bronze: #786400;
+    --mty-yellow-bronze-dark: #504300;
+}
+
+/* Dark & White colors */
+:root {
+    --mty-white: #FFFFFF;
+    --mty-white-cultured-light: #F1F3F5;
+    --mty-white-cultured: #E9ECEF;
+    --mty-white-gainsboro: #DEE2E6;
+    --mty-gray: #CED4DA;
+    --mty-gray-crayola: #ADB5BD;
+    --mty-gray-silver: #6C757D;
+    --mty-gray-davys: #495057;
+    --mty-gray-onix: #343A40;
+    --mty-black-eerie: #212529;
+    --mty-black-eerie-dark: #111315;
+    --mty-black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--mty-black);
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--mty-white);
+}
+
+.musicapp-header {
+    background-color: var(--mty-yellow-sunrise);
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 15px 0px;
+    margin-bottom: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header {
+    position: relative;
+    max-width: calc(1080px + 32px);
+    margin: 0 auto;
+    padding: 16px auto;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 56px;
+}
+
+.header_logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.header_logoTitle {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.header_links {
+    max-width: 300px;
+}
+
+.header_linksContainer {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header_link a {
+    text-decoration: none;
+    color: var(--mty-black);
+    transition: 0.4s;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+.header_link a:hover {
+    opacity: 0.6;
+}
+
+.header_buttonsContainer {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    justify-content: space-between;
+}
+
+.header_button {
+    background-color: var(--mty-black-eerie);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--mty-white);
+    padding: 5px 15px;
+    border-radius: 7px;
+    border: none;
+}
+
+.main {
+    position: relative;
+    max-width: calc(1080px + 32px);
+    margin: 0 auto;
+    padding: 16px auto;
+}
+
